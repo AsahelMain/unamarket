@@ -29,6 +29,9 @@ Antes de ejecutar la aplicación, se debe de tener instalado:
    ```bash
    pip install -r requirements.txt
    ```
+3. Configurar las credenciales del correo electrónico para permitir mandar correos de parte
+de UNAMarket (contactar a los desarrolladores para obtenerlas).
+
 
 ### Frontend (React)
 1. Navegar al directorio del frontend:
