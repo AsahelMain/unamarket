@@ -1,6 +1,6 @@
 # UNAMarket
 
-UNAMarket es una aplicación web para la compra y venta de alimentos dentro de la UNAM, desarrollada con Flask (backend) y React (frontend).
+UNAMarket es una aplicación web para la compra y venta de alimentos dentro de la UNAM, desarrollada con React y Flask.
 
 ## Requisitos Previos
 
