@@ -1,0 +1,45 @@
+.review-card {
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido se coloque en una columna */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    width: 100%; /* O el porcentaje que desees para el contenedor */
+    max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    align-items: flex-start; /* Asegura que los elementos se alineen al principio */
+    overflow: hidden; /* Evita que el contenido desborde */
+}
+
+.review-profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.review-content {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-user {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.review-rating {
+    font-size: 1em;
+    color: #ffaa00;
+}
+
+.review-text {
+    margin-top: 10px;
+}

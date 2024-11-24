@@ -1,0 +1,88 @@
+.write-review {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.writereview-section {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.write-review h2 {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.write-review h3 {
+    font-size: 17px;
+    color: #464646;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 300px; 
+    align-self: center; 
+}
+
+.review-form label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #464646;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.review-form button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #0056b3;
+}
+
+.review-form .send-review {
+    display: flex;
+    justify-content: center;
+}
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.success-message .tick {
+    font-size: 50px;
+    color: green;
+    width: 100px;
+}
+
+.success-message p {
+    font-size: 18px;
+    color: #464646;
+    margin-top: 10px;
+}
+

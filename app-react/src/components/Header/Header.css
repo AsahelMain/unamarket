@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px 50px 20px;
+}
+
+header img {
+    width: 80px;
+}
+
+header .header-text-wrap {
+    display: flex;
+    align-items: center;
+}
+
+header .header-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}

@@ -1,0 +1,20 @@
+
+/* Estilo para el botón home-seller-button */
+.home-seller-button {
+    background-color: #F3C430; /* Color de fondo amarillo */
+    color: black; /* Color del texto negro */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno interno del botón */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    outline: none; /* Sin borde de enfoque */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+    position: absolute; /* Posición absoluta para ubicar el botón */
+    top: 130px; /* Separación desde la parte superior */
+    left: 60px; /* Separación desde el borde izquierdo */
+}
+
+.home-seller-button:hover {
+    background-color: gold; /* Color de fondo al pasar el ratón */
+}

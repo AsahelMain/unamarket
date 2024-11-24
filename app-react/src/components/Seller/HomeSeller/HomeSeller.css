@@ -1,0 +1,33 @@
+.home-seller-container {
+    position: relative;
+    height: calc(100vh - 60px); /* Ajusta según la altura de tu header y barra amarilla */
+    padding: 20px;
+}
+
+.add-product-button {
+    background-color: #F3C430; 
+    color: black;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 1em;
+    cursor: pointer; 
+    border-radius: 5px;
+    outline: none; 
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+    position: absolute; /* Posición absoluta para ubicar el botón */
+    top: 10px; /* Separación desde la parte superior */
+    right: 200px; 
+}
+
+.add-product-button:hover {
+    background-color: rgb(244, 216, 93);
+}
+
+.tus-productos{
+    color: rgb(73, 69, 69);
+    font: bold;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2em;
+    top: 40px; 
+    right: 200px; 
+}

@@ -1,0 +1,106 @@
+.signup-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    margin-top: 50px;
+}
+
+.signup-card {
+    flex-basis: 250px; 
+    width: 300px;
+    align-self: center; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa; 
+    padding: 20px; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.signup-menu label {
+    text-align: left;
+    margin-bottom: 6px;
+    padding-left: 5px;
+    font-weight: 550;
+}
+
+.signup-menu button {
+    width: 40%;
+    padding: 10px;
+    background-color: #FAC039;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-menu button:hover {
+    background-color: #ecb533;
+}
+
+.signup-menu input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-menu select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white; 
+}
+
+.signup-menu select::-ms-expand {
+    display: none;
+}
+
+.signup-menu select {
+    
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Use your own arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%;
+    background-size: 24px;
+}
+
+.signup-menu select:hover {
+    border-color: #aaa;
+}
+
+.signup-message {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.signup-message .error-message {
+    padding: 15px 30px;
+    border: 1px solid #ff8888;
+    background-color: #ffc3c3;
+    border-radius: 15px;
+}
+
+.signup-login {
+    margin-top: 25px;
+}
+
+.signup-login p {
+    font-size: small;
+    text-decoration: none;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confirmación de compra de {{ product.name }}</title>
+</head>
+<body style="font-family: Arial, sans-serif; padding: 20px;">
+
+<div style="max-width: 600px; margin: 0 auto;">
+    <h2 style="text-align: center;">¡Gracias por tu compra!</h2>
+    <p>Has comprado exitosamente:</p>
+    <div>
+        <p><strong>Producto:</strong> {{ product.name }}</p>
+        <p><strong>Vendedor:</strong> {{ seller.username }}</p>
+        <p><strong>Correo de vendedor:</strong> {{ seller.email }}</p> <!-- Agregado el correo del vendedor -->
+        <p><strong>Teléfono de vendedor:</strong> {{ seller.cellphone }}</p> <!-- Agregado el teléfono del vendedor -->
+    </div>
+    <p>Ponte de acuerdo con el vendedor para los detalles de entrega.</p>
+</div>
+
+</body>
+</html>

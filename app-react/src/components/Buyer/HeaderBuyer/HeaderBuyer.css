@@ -1,0 +1,175 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.logo-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+}
+
+.app-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+.middle {
+    flex: 0.5;
+    margin: 0 20px;
+}
+
+.middle input {
+    border: 1px solid #464646;
+    border-radius: 20px 0 0 20px;
+}
+
+.middle button {
+    padding: 8.5px;
+    border: 1px solid #464646;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0; /* Bordes redondeados en el lado derecho */
+    background-color: #464646;
+}
+
+.middle button img{
+    width: 15px; /* Tamaño de la imagen del icono de búsqueda */
+    height: 13.5px;
+    filter: invert(1);
+}
+
+.search-bar {
+    width: 80%;
+    padding: 7.3px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    gap: 15px;
+    position: relative;
+}
+
+.user-btn,
+.cart-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icon {
+    width: 35px; 
+    margin-left: 10px;
+}
+
+.floating-list {
+    position: absolute;
+    top: 30px; 
+    left: 0; 
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style: none;
+    display: none; 
+}
+
+.right:hover .floating-list {
+    display: block; 
+}
+
+
+.categories {
+    background-color: #F3C430;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
+.categories-button {
+    background-color: #F3C430;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-grow: 1;
+}
+
+.categories-button:hover {
+    background-color: #E0B200;
+}
+
+.categories-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.categories-button:hover {
+    background-color: #E0B200;
+}
+
+.categories-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.user-menu {
+    position: absolute;
+    top: 50px; 
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    display: none;
+}
+
+.user-menu.show {
+    display: block;
+}
+
+.user-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-menu ul li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.user-menu ul li:hover {
+    background-color: #f0f0f0;
+}

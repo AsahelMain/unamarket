@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.yellow-bar {
+    height: 50px;
+    background-color: #F3C430;
+}

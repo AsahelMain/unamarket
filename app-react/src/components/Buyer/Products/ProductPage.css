@@ -1,0 +1,168 @@
+.product {
+    display: flex;
+    
+    justify-content: center;
+}
+
+.product-quantity-input {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.reserve-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.product .error-message,
+.product .loading-message {
+    font-size: 25px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1500px;
+    padding: 20px;
+}
+
+.product-container h2 {
+    font-size: 32px;
+}
+
+.productpage-card {
+    display: flex;
+    gap: 50px;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.product-image img {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.product-image {
+    padding: 10px;
+    background-color: #f0f0f0;
+    height: 450px;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+    flex: 1;
+    padding: 0px 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.product-info h2 {
+    margin-bottom: 0px;
+}
+
+.seller-info {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.footer-product {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.footer-product .quantity-input-wrapper {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.reserve-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.reserve-button:hover {
+    background-color: #45a049; 
+}
+
+.reserve-button-eliminar{
+    background-color: #df4018;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.reserve-button-eliminar:hover {
+    background-color: #9d0000; 
+}
+
+.footer-product .reserved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-product .reserved-message {
+    background-color: #3d8b3f;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    width: 80px;
+    text-align: center;
+}
+
+.footer-product .additional-message {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
