@@ -11,10 +11,10 @@ import SearchBar from "./SearchBar/SearchBar";
 
 function HeaderBuyer() {
 
-    const categories = ["Libros", "Ropa", 
-                        "Comida", "Deportivo",
-                        "Juguetes", "Papelería", 
-                        "Hogar", "Mascotas"];
+    const categories = ["Desayuno", "Comida", 
+                        "Cena", "Snack",
+                        "Bebidas", "Saludable", 
+                        "Postres", "Economico"];
 
     const navigate = useNavigate();
     const { logout } = useAuth();
@@ -51,7 +51,7 @@ function HeaderBuyer() {
                 <div className="left">
                     <Link className="logo-btn" to="/comprar">
                         <img src={cart} alt="CiencaSmart Logo" className="logo" />
-                        <span className="app-name">CIENCIASMART</span>
+                        <span className="app-name">UNAMARKET</span>
                     </Link>
                 </div>
             

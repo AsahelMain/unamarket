@@ -26,7 +26,7 @@ def confirm_sale():
     if req is None:
         return jsonify({'error': 'Error interno de servidor'}), 500
     
-    subject = "Gracias por comprar con Cienciasmart"
+    subject = "Gracias por comprar con UNAMarket"
     template = "confirm.html"
     additional_data = {
         'buyer_id': buyer_id,

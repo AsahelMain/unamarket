@@ -25,7 +25,7 @@ function HomeSeller() {
     return (
         <>
             <HeaderSeller />
-            <span className='tus-productos'>Productos publicados</span>
+            <div className='tus-productos'>Productos publicados</div>
             <right>
             <div className="home-seller-container">
                 <button className="add-product-button" onClick={handleAddProductClick}>

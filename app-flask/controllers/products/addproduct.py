@@ -12,13 +12,11 @@ def addproduct(seller_id):
     name = data.get('name')
     description = data.get('description')
     stock = data.get('stock')
-    cellphone = data.get('cellphone')
+    cellphone = "5532984329"
     photo_base64 = data.get('photo')
     category = data.get('category')
     price = data.get('price')
-
-    print(name)
-    print(cellphone)
+   
 
     if not isinstance(seller_id, int):
         return jsonify({"error": "Seller_id no está en enteros "}), 400

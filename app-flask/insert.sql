@@ -1,4 +1,4 @@
-use cienciasmart;
+use unamarket;
 
 -- Contraseña: cocowang
 INSERT INTO seller (username, email, password, cellphone)

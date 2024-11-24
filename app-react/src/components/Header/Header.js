@@ -6,7 +6,7 @@ function Header() {
         <header>
             <img src={cart} alt="Shopping cart by Yaprativa"></img>
             <div className='header-text-wrap'>
-                <p className='header-text'>CIENCIASMART</p>
+                <p className='header-text'>UNAMARKET</p>
             </div>
         </header>
     );

@@ -23,6 +23,7 @@ def add_product(seller_id: int, name: str, description: str, stock: int,
             price=price
             )
         print(product.seller_id, product.name, product.description, product.stock, product.cellphone, product.category, product.price)
+        print(product)
         db.session.add(product)
         db.session.commit()
         return product

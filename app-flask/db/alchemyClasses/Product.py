@@ -11,7 +11,7 @@ class Product(db.Model):
     name = Column(String(20), nullable=False)
     description = Column(String(80), nullable=False)
     stock = Column(Integer)
-    cellphone = Column(String(10), nullable=False, unique=True)
+    cellphone = Column(String(10))
     photo = Column(LargeBinary, nullable=False)
     category = Column(String(20), nullable=False)
     price = Column(Float, nullable=False)

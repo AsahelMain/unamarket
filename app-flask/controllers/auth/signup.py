@@ -35,7 +35,7 @@ def signup():
                           password=password)
     if user is None:
         return jsonify({'error': 'Error interno de servidor'}), 500
-    subject = "Bienvenido a Cienciasmart"
+    subject = "Bienvenido a UNAMarket"
     template = "signup.html"
     additional_data = {
         'username': username,

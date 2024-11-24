@@ -11,7 +11,7 @@ function HeaderSeller() {
         <div className="header">
             <div className="logo">
                 <img src={shoppingcart} alt="Cart" className="icon" />
-                <span className="logo-text">CIENCIASMART</span>
+                <span className="logo-text">UNAMARKET</span>
             </div>
             <div className="user-icon">
                 <button className="user-btn" onClick={logout}>

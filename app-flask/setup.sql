@@ -1,10 +1,10 @@
-create database cienciasmart;
+create database unamarket;
 
 create user 'aavaa'@'localhost' identified by 'aavaa';
 
-grant all privileges on cienciasmart.* to 'aavaa'@'localhost' with grant option;
+grant all privileges on unamarket.* to 'aavaa'@'localhost' with grant option;
 
-use cienciasmart;
+use unamarket;
 
 CREATE TABLE buyer (
     buyer_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -30,7 +30,7 @@ CREATE TABLE product (
     name VARCHAR(20) NOT NULL,
     description VARCHAR(80) NOT NULL,
     stock INT,
-    cellphone CHAR(10) NOT NULL UNIQUE,
+    cellphone CHAR(10) NOT NULL,
     photo LONGBLOB NOT NULL,
     category VARCHAR(20) NOT NULL,
     price FLOAT8 NOT NULL,
